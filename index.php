@@ -80,7 +80,7 @@
 	*/
 
 	function GetDataFB( $senderId ){
-		$access_token = 'EAAdzCFrZCTAwBADEq71iDo3wBXHCktR0mm9SnR1ZBwWEt382kdlaBs5YoCk4rjbND5wgP2qsqIZC3uZBBETX727rVIOLmLiiNS5A0Yrgxs9ReulEHLizZCNYsFNRIX8taZCq8FGcqSnarh6jUiWa6gJMLawdWC9GpEJZBCRwZCqZARFP9Lppp0dgg';
+		$access_token = 'EAABuSxlAYZAYBACbJilseGZBDMx0qBQlVd6bfapQ6ZCQJWe990sgZCTJRZB8ZB1CveoQz13OPcZBqWxZBf2wpdtxMpDxszdUMmdbYOJkOWsEAR0Y7timi0lWJ5Ayz6icE7DsZBRzpIKlJSNEuUdZAdtjyqMYUToScjxlXbbFtbWC5S3QZDZD';
 		$api_url = "https://graph.facebook.com/v2.12/$senderId?fields=first_name%2Clast_name%2Cprofile_pic%2Cgender%2Clocale%2Ctimezone&access_token=" . $access_token;
 
 		$json_return = file_get_contents( $api_url );
